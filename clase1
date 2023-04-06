@@ -9,9 +9,7 @@ print("hola soy", nombre)
 
 edad = "18"
 
-print("mi edad es", edad)
-
-#imprimienfo 2 variables en una misma sentencia
+#imprimiendo 2 variables en una misma sentencia
 # + "" + es para hacer un espacio y str es para que la computadera pueda leer numeros
 print("hola soy"+ " "+ nombre + ", " + "tengo" +" "+ str(edad ) )
 
@@ -20,3 +18,35 @@ print("mi nuevo nombre es", name)
 #utilizando la instruccion input
 name= input("¿cual es tu nuevo nombre?\n")
 print("tu nombre es:", name)
+
+#datos de tipo numerico
+estatura = 1.75
+peso = 70
+complejo = 1 + 4j
+
+#datos de tipo cadena
+imc = peso/estatura
+print("mi imc es de", imc)
+
+#datos de tipo cadena de caracteres
+asignatura= "programacion"
+carrera = "Ingenieria civil en informatica"
+
+#hola
+print("hola,soy estudiante de la carrera de", carrera, "estoy en la clase de", asignatura, "un cordial saludo")
+
+#valores boleanos
+ampolleta = False
+interruptor = True
+
+print(type(ampolleta) )
+print (type(imc))
+print(type(carrera))
+print(type(peso))
+
+#datos tipo array
+estudiantes = ("Cristobal", "Marco", "Jose", "Yaeger")
+num = (1,2,3,4,5,6)
+print(estudiantes)
+print(num)
+
