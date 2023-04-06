@@ -1,0 +1,22 @@
+#esto es declarar una variable
+
+nombre = "PKot"
+name = "Chaos"
+
+#llamando a la variable ya usada
+
+print("hola soy", nombre)
+
+edad = "18"
+
+print("mi edad es", edad)
+
+#imprimienfo 2 variables en una misma sentencia
+# + "" + es para hacer un espacio y str es para que la computadera pueda leer numeros
+print("hola soy"+ " "+ nombre + ", " + "tengo" +" "+ str(edad ) )
+
+print("mi nuevo nombre es", name)
+
+#utilizando la instruccion input
+name= input("¿cual es tu nuevo nombre?\n")
+print("tu nombre es:", name)
