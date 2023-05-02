@@ -1,0 +1,27 @@
+bencina = True
+encendido = True
+edad = 19
+
+#utilizando el operador and
+#es como en pseint donde si = if,  sino = else  , sinosi = elif
+if bencina and encendido :
+ print ("el vehiculo esta apagado")
+else:
+ print("el vehiculo no puede arrancar")
+
+#utilizando el operador or
+if bencina or encendido: 
+ print("el vehiculo no pued avanzar")
+else:
+  print("el vehiculo no puede arrancar")
+
+  #utilizando or y not
+if not bencina or encendido:
+    print("el vehiculo puede avanzar")
+else:
+    print("el vehiculo no puede arrancar")
+
+if not bencina or (encendido and edad>= 18):
+    print("El vehiculo puede avanzar")
+else:
+  print("el vehiculo no puede avanzar")
